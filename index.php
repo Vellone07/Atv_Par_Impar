@@ -28,12 +28,11 @@ echo "<p>O número informado é PAR.</p>";
 echo "<p>O número informado é ÍMPAR.</p>";
 }
 
-// Verifica se o número é redondo (quadrado perfeito)
-$raizQuadrada = sqrt($num);
-if ($raizQuadrada == floor($raizQuadrada)) {
-echo "<p>O número informado é um quadrado perfeito.</p>";
+ // Verifica se o número é redondo (termina em 0)
+ if ($num == 0 || substr($num, -1) == 0) {
+    echo "O número informado é redondo.<br>";
 } else {
-echo "<p>O número informado não é um quadrado perfeito.</p>";
+    echo "O número informado não é redondo.<br>";
 }
 
 // Verifica se o número é positivo, negativo ou neutro (zero)
@@ -52,4 +51,3 @@ echo "<p>O número informado é POSITIVO.</p>";
 </div>
 </body>
 </html>
-

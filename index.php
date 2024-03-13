@@ -48,7 +48,8 @@ echo "<p>O número informado é POSITIVO.</p>";
    ?>
     
 </div>
-    </div>
+  
+</div>
 </body>
 </html>
 

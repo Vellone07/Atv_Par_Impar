@@ -1,4 +1,4 @@
-# Atv_Par_Impar
+# Atividade de Verificação de Números
 
 Verificação de Números ♻️  
 Este é um projeto simples em PHP que permite aos usuários verificar se um número é par ou ímpar, se é um quadrado perfeito e se é positivo, negativo ou neutro (zero). Também inclui um estilo CSS para uma aparência agradável.  
